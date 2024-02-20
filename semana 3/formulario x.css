@@ -1,0 +1,66 @@
+html{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(95, 10, 57);
+}
+/* aplicar estilos a la clase=" contenedor" */
+.contenedor{
+    max-width: 450px;
+    height: auto;
+    background-color: rgba(141, 93, 121, 0.966);
+    margin:5% auto; /* centrar contenedor en doc web */
+    padding-bottom: 16px;
+}
+header{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 spx;
+    border-top: solid 8px rgb(204, 185, 16);
+    margin-bottom: 5px;
+}
+header h2{
+font-weight: bold;/*negrilla*/
+color: rgb(170, 160, 17);
+font-size: 10px; /* tamaño de fuente  */
+
+}
+.form_register{
+    padding: 0 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;/* alinear horizontal mas cerca */
+    margin-top: 16px;
+}
+.btn_accion{
+    display:flex;
+    justify-content: space-around;/*alinear horizontal mas cerca  */
+    margin-top: 16px;
+}
+input, .btn_enviar, .btn_limpiar{
+    background-color: rgb(172, 148, 12);
+    padding: 8px;
+    margin: 8px 0;
+    outline: none;/*quitar bordes de color negro*/
+    transition: all .5s;/*efecto de animacion delay */
+}
+.btn_enviar, .btn_limpiar{
+    width: 40%;
+    border-radius: 25px;/*bordas redondeados */
+    background-color: rgb(110, 88, 16);
+    color: deepskyblue;
+}
+/* evento de un css: focus es al clic en el control form */
+input:focus{
+    background-color: aqua;
+    border: cadetblue;
+}
+#terminos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
